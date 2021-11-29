@@ -13,7 +13,7 @@ namespace FirstProject
         {
             Workbook wb = new Workbook();
             
-            wb.LoadFromFile(fcsv, ";", 1, 1);
+            wb.LoadFromFile(fcsv, ";", 1, 1,ExcelVersion.Version2007,Encoding.GetEncoding(1251));
             
             wb.ConverterSetting.SheetFitToPage = true;
             
