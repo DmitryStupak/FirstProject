@@ -6,7 +6,8 @@ namespace FirstProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Convert.ConvertToPDF("C:\\dotnet\\FirstProject\\File.csv", "C:\\dotnet\\FirstProjectFile.pdf");
+            Convert.ConvertToXML("C:\\dotnet\\FirstProject\\File.csv", "C:\\dotnet\\FirstProjectFile.xml");
         }
     }
 }
